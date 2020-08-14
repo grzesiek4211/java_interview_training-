@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da931d24-04e2-46cb-bab4-deda943c6916" name="Default Changelist" comment="added .gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fibonacci/FibonacciRecursiveTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fibonacci/FibonacciStreamTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fibonacci/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fibonacci/FibonacciTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fibonacci/FibonacciTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fibonacci/FibonacciIterativeTest.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fibonacci" />
       <recent name="factorial" />
     </key>
   </component>
@@ -77,7 +76,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FactorialStreamTest">
+  <component name="RunManager" selected="JUnit.fibonacci in java_interview">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factotial.Factorial" />
       <module name="java_interview" />
@@ -87,21 +86,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactorialIterativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="factorial" />
-      <option name="MAIN_CLASS_NAME" value="factorial.FactorialIterativeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,13 +168,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="fibonacci in java_interview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fibonacci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fibonacci" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.fibonacci in java_interview" />
         <item itemvalue="JUnit.FactorialStreamTest" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="JUnit.FactorialStreamTest.Should throw IllegalArgumentException for n &lt; 0" />
         <item itemvalue="JUnit.FactorialRecursiveTest" />
-        <item itemvalue="JUnit.FactorialIterativeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +204,7 @@
       <updated>1597396926344</updated>
       <workItem from="1597396929699" duration="1706000" />
       <workItem from="1597398663577" duration="7939000" />
-      <workItem from="1597406633781" duration="6518000" />
+      <workItem from="1597406633781" duration="6783000" />
     </task>
     <task id="LOCAL-00001" summary="Factorial + tests(tdd)">
       <created>1597429458466</created>
@@ -222,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597429584793</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="remove .class">
+      <created>1597440127223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597440127223</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +237,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Factorial + tests(tdd)" />
     <MESSAGE value="added .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore" />
+    <MESSAGE value="remove .class" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove .class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Notifications" timestamp="1597407390991">
@@ -263,26 +269,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="184" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597428938985" />
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1597429662341">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1597440155923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597429662341" />
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1597440087466">
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597440155923" />
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1597440369689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597440087466" />
-    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1597440087466">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597440369689" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1597440369689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597440087466" />
-    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1597440087466">
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597440369689" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1597440369688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597440087466" />
-    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1597440087466">
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597440369688" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1597440369689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597440087466" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597440369689" />
     <state width="1492" height="261" key="GridCell.Tab.1.bottom" timestamp="1597429387533">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -303,10 +309,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="288" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597439185359" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597429586237">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597440128514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597429586237" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597440128514" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1597406633767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -319,10 +325,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="168" key="extract.method.dialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597400335505" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1597440087485">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1597440197641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597440087485" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597440197641" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1597400259376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

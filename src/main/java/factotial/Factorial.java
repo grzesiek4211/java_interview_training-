@@ -3,7 +3,6 @@ package factotial;
 import lombok.NoArgsConstructor;
 
 import java.util.stream.LongStream;
-import java.util.stream.Stream;
 
 @NoArgsConstructor
 public class Factorial {
@@ -40,14 +39,9 @@ public class Factorial {
         return LongStream.rangeClosed(1,n).reduce(1, (a, b) -> a * b);
     }
 
-    public static void main(String[] args) {
-        factorialStream(5);
-    }
-
     private static void validateArgument(long n) {
         if (n < 0) {
             throw new IllegalArgumentException("Parameter 'n' have to be > 0!");
         }
     }
-
 }
