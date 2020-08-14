@@ -1,4 +1,4 @@
-package factotial;
+package factorial;
 
 import lombok.NoArgsConstructor;
 
